@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tomás martins & Manuel Sousa">
+    <meta name="Nome" content="Web.tv">
+    <meta name="description" content="Pagina inicial">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"rel="stylesheet">
+
+    <title>Electro</title>
+</head>
+
+
+<body>
+
+    <header id="mainHeader">
+
+        <nav>
+            <a href="index.html">
+                <h2>ELECTRO</h2>
+            </a>
+
+            <ul class="menu">
+                <li><a href="index.html"><i class="material-icons">home </i>Home</a></li>
+                <li><a href="about_Us.html"><i class="material-icons">perm_identity</i>About Us</a></li>
+                <li><a href="produtos.html"><i class="material-icons">shopping_cart</i>Produtos</a>
+                    <ul>
+                        <li><a href="material.html"><i class="material-icons">shopping_cart</i>Material</a></li>
+                        <li><a href="alimentos.html"><i class="material-icons">shopping_cart</i>Alimentos</a></li>
+                        <li><a href="talho.html"><i class="material-icons">shopping_cart</i>Talho</a></li>
+                    </ul>
+                </li>
+                <li><a href="formulario.html"><i class="material-icons">article</i>Formulário</a></li>
+                <li><a href="galeria.html"><i class="material-icons">mail_outline</i>Galeria</a></li>
+
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+
+    <main>
+
+
+        <section class="formulario">
+
+            <form method="POST" action="mailto:xxx@gmail.com">
+
+
+                <h1>FORMULÁRIO</h1>
+                <fieldset>
+
+                    <legend> Avaliação de Dados</legend>
+
+                    <label for="name">Nome: </label>
+                    <input type="text" id="name" placeholder="Nome" name="name"><br>
+
+                    <label for="datemin">Data de Nascimento</label>
+                    <input type="date" id="date" name="date">
+
+
+                    <p>Género:</p>
+                    <input type="radio" id="id" name="nome" value="Rapaz">
+                    <label for="male">Rapaz</label><br>
+                    <input type="radio" id="id" name="nome" value="Rapariga">
+                    <label for="female">Rapariga</label><br>
+                    <input type="radio" id="id" name="nome" value="Outro">
+                    <label for="other">Outro</label><br>
+
+
+                    <p>Achou este Website facil de navegar e compreender?</p>
+                    <input type="radio" id="i2" name="nome" value="sim">
+                    <label for="sim">Sim</label><br>
+                    <input type="radio" id="i2" name="nome" value="Não">
+                    <label for="Nao">Não</label><br>
+
+                    <p>Escreva uma pequena frase acerca deste Website:</p>
+                    <label for="fname">Frase:</label>
+                    <input type="text" id="fname" name="name"><br>
+
+
+
+                    <p>Preencha as caixinhas das páginas que gostou mais:</p>
+                    <input type="checkbox" id="id3" name="nome" value="Home">
+                    <label for="Home">Home</label><br>
+                    <input type="checkbox" id="id3" name="nome" value="About Us">
+                    <label for="About Us">About Us</label><br>
+                    <input type="checkbox" id="id3" name="nome" value="Products">
+                    <label for="Products">Products</label><br>
+                    <input type="checkbox" id="id3" name="nome" value="Galeria">
+                    <label for="Galeria">Galeria</label><br>
+                    <input type="checkbox" id="id3" name="nome" value="Formulario">
+                    <label for="Formulario">Formulário</label><br>
+
+
+                    <p>O quão bom é este site:</p>
+                    <input type="radio" id="id4" name="nome" value="muito mau">
+                    <label for="Muito Mau">Muito Mau</label><br>
+                    <input type="radio" id="id4" name="nome" value="mau">
+                    <label for="Mau">Mau</label><br>
+                    <input type="radio" id="id4" name="nome" value="Satisfaz">
+                    <label for="Satisfaz"> Satisfaz</label><br>
+                    <input type="radio" id="id4" name="nome" value="Bom">
+                    <label for="Bom">Bom</label><br>
+                    <input type="radio" id="id4" name="nome" value="Muito bom">
+                    <label for="Muito bom">Muito Bom</label><br>
+
+
+                    <p>Quanto tempo demorou para preencher este Formulário?</p>
+                    <label for="appt">Select a time:</label>
+                     <input type="time" id="appt" name="appt"><br>
+
+                    <p>Escreva alguma Sugestão para a melhoria do Website:</p>
+                     <textarea class="comentario"  name="mensagem" rows="8" cols="50" placeholder="Escreva aqui alguma sugestão..."></textarea> <br>
+                
+
+                    <input type="submit" value="enviar email">
+                </fieldset>
+
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+    <footer id="pageFooter">
+        <h2 class="leftCol">Electro</h2>
+        <a class="rightCol" href="#mainHeader">Voltar ao topo</a>
+    </footer>
+
+</body>
+
+
+
+</html>
